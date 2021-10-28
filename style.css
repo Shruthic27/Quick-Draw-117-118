@@ -2,3 +2,40 @@ body{
     background-image: radial-gradient(rgb(237, 98, 98), rgb(71, 0, 101));
     color: white;
 }
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    background-color: white;
+    box-shadow:5px 5px 5px gold;
+    box-shadow: 1px 1px 38px lightseagreen;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-left: 350px;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px lightseagreen;}
+  to {box-shadow: 1px 1px 38px gold;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
